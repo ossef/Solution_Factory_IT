@@ -5,7 +5,10 @@ Projet filière IT :  Métro, Efrei, Dodo
 Auteur : Youssef Ait El Mahjoub
 <br/>
 
+------------------------------------------
+
 ## $\color{red}{Version 1}$ 
+------------------------------------------
 
 - Voir le dossier "/Version1"
 - Date des données : 1998 - 2002, de durées approximative entre les stations mais réaliste.
@@ -22,7 +25,10 @@ Auteur : Youssef Ait El Mahjoub
 - "pospoint.txt" : contient les positions des stations, pour l'affichage dans le plan parisien.
 <br/>
 
+----------------------------------------
+
 ## $\color{red}{Version 2 \ et\ Version 3}$ 
+------------------------------------------
 
 ### I - Provenance : 
 
@@ -152,7 +158,10 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
   dates et d'autres niveaux de granularité des données pour avoir des bonus.
 <br/>
 
+----------------------------------------
+
 ## $\color{red}{Remarques\ importantes}$ 
+------------------------------------------
 
 - Pour créer votre graphe, on doit connaitre les stations qui sont les noeuds, le poids entre les noeuds qui va être la durée 
   (en seconde) entre 2 stations. 
@@ -168,7 +177,10 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
 - Toutes les versions : se limiter aux lignes de métros.
 <br/>
 
-## $\color{red}{Travail \ a^\` \ faire}$ 
+----------------------------------------
+
+## $\color{red}{Travail \ à faire}$ 
+------------------------------------------
 
 ### A) Création du graphe valué à partir des données, en utilisant des structures de données adéquate.
 
@@ -201,7 +213,10 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
 - Considérer l'information d'accessibilité des stations pour les fauteuils roulant ...
 <br/>
 
+----------------------------------------
+
 ## $\color{red}{UI\ exemples}$ 
+------------------------------------------
 
 <br>
 <div align="center">
@@ -221,7 +236,10 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
 </div>
 <br>
 
+----------------------------------------
+
 ## $\color{red}{Bibliographie}$ 
+------------------------------------------
 
 - Les cours sur Moodle.
 - https://data.iledefrance-mobilites.fr/explore/dataset/offre-horaires-tc-gtfs-idfm/information/
