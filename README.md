@@ -1,11 +1,11 @@
-***Solution Factory   : Efrei,  2024***
-
-***Projet filière IT :  Métro, Efrei, Dodo***
-
-***Auteur : Youssef Ait El Mahjoub***
+Solution Factory   : Efrei,  2024
 <br/>
---------------
-# <font color='D60808'> Version 1: </font>
+Projet filière IT :  Métro, Efrei, Dodo
+<br/>
+Auteur : Youssef Ait El Mahjoub
+<br/>
+
+## $\color{red}{Version 1}$ 
 
 - Voir le dossier "/Version1"
 - Date des données : 1998 - 2002, de durées approximative entre les stations mais réaliste.
@@ -22,10 +22,9 @@
 - "pospoint.txt" : contient les positions des stations, pour l'affichage dans le plan parisien.
 <br/>
 
--------------------------
-# <font color='D60808'>  Version 2 et Version 3:  </font>
+## $\color{red}{Version 2 \ et\ Version 3}$ 
 
-## I - Provenance : 
+### I - Provenance : 
 
 - Voir le dossier "/Version2_Version3"
 - Source des données : Ile-de-France Mobilité (IDFM)
@@ -34,7 +33,7 @@
 - Données temps réel et trés détaillés, nécessite la manipulation de plusieurs fichiers (GTFS) pour extraire les informations 
   nécessaire pour construire le graphe.
 
-## II - Les fichiers :
+### II - Les fichiers :
 
 - Les fichiers fournis GTFS/IDFM sont:
 	- "agency.txt"
@@ -48,7 +47,7 @@
 	- "calendar_dates.txt"
 	- "pathways.txt"
 
-## III - Explication des fichiers : 
+### III - Explication des fichiers : 
 
 - Le fichier "opendata_gtfs.pdf" fourni une explication des fichiers et la connexion entre ces derniers.
 - Fichier pdf à lire impérativement (slide 17 primordiale).
@@ -152,8 +151,8 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
 - Les quatres autres fichiers restant ne semble pas nécessaire, pour les plus motivés libre à vous de rajouter les calendrier des
   dates et d'autres niveaux de granularité des données pour avoir des bonus.
 <br/>
--------------------------
-# <font color='D60808'> Remarques importantes :  </font>
+
+## $\color{red}{Remarques\ importantes}$ 
 
 - Pour créer votre graphe, on doit connaitre les stations qui sont les noeuds, le poids entre les noeuds qui va être la durée 
   (en seconde) entre 2 stations. 
@@ -168,9 +167,8 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
   utilisateur peut attendre quelque temps pour le prochain passage de la ligne dans la station, de même pour les correspondances qui ne sont plus négligales (voir "transfert.txt").
 - Toutes les versions : se limiter aux lignes de métros.
 <br/>
--------------------
-# <font color='D60808'> Travail à faire :  </font>
 
+## $\color{red}{Travail \ a^\` \ faire}$ 
 
 ### A) Création du graphe valué à partir des données, en utilisant des structures de données adéquate.
 
@@ -202,10 +200,8 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
 - Spécifier une date d'arrivé souhaité pour votre trajet (au lieu d'une date de départ).
 - Considérer l'information d'accessibilité des stations pour les fauteuils roulant ...
 <br/>
-<br/>
 
------------------
-# <font color='D60808'> UI examples :  </font>
+## $\color{red}{UI\ exemples}$ 
 
 <br>
 <div align="center">
@@ -225,10 +221,8 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
 </div>
 <br>
 
------------------
-# <font color='D60808'> Bibliographie :  </font>
+## $\color{red}{Bibliographie}$ 
 
-
-- Les cours soumis sur Moodle.
+- Les cours sur Moodle.
 - https://data.iledefrance-mobilites.fr/explore/dataset/offre-horaires-tc-gtfs-idfm/information/
 - https://www.dericbourg.net/2015/12/10/calcul-ditineraire-a-partir-des-donnees-ratp/ 
