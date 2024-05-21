@@ -4,7 +4,6 @@
 
 ***Auteur : Youssef Ait El Mahjoub***
 <br/>
-
 --------------
 # <font color='D60808'> Version 1: </font>
 
@@ -21,7 +20,6 @@
   -> Format pour les arrêtes :
     E num_sommet1 num_sommet2 temps_en_secondes 
 - "pospoint.txt" : contient les positions des stations, pour l'affichage dans le plan parisien.
-<br/>
 <br/>
 
 -------------------------
@@ -154,8 +152,6 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
 - Les quatres autres fichiers restant ne semble pas nécessaire, pour les plus motivés libre à vous de rajouter les calendrier des
   dates et d'autres niveaux de granularité des données pour avoir des bonus.
 <br/>
-<br/>
-
 -------------------------
 # <font color='D60808'> Remarques importantes :  </font>
 
@@ -172,8 +168,6 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
   utilisateur peut attendre quelque temps pour le prochain passage de la ligne dans la station, de même pour les correspondances qui ne sont plus négligales (voir "transfert.txt").
 - Toutes les versions : se limiter aux lignes de métros.
 <br/>
-<br/>
-
 -------------------
 # <font color='D60808'> Travail à faire :  </font>
 
