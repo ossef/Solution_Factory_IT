@@ -1,4 +1,4 @@
-Solution Factory   : Efrei,  2024
+Solution Factory Project   : Efrei,  2024
 <br/>
 Projet filière IT :  Métro, Efrei, Dodo
 <br/>
