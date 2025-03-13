@@ -217,7 +217,7 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
 
 ## $\color{red}{UI\ exemples}$ 
 ------------------------------------------
-
+### Version 1
 <br>
 <div align="center">
     <img src="./Examples/UI1.png" width="700" height="400"/>
@@ -231,8 +231,15 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
     <img src="./Examples/UI3.png" width="700" height="300"/>
 </div>
 <br>
+
+### Version 2 & 3
+<br>
 <div align="center">
-    <img src="./Examples/UI4.png" width="400" height="500"/>
+    <img src="./Examples/RER_UI1.png" width="700" height="400"/>
+</div>
+<br>
+<div align="center">
+    <img src="./Examples/RER_UI2.png" width="700" height="400"/>
 </div>
 <br>
 
