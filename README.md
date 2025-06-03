@@ -1,4 +1,4 @@
-Solution Factory Project   : Efrei,  2024
+Solution Factory Project   : Efrei
 <br/>
 Projet filière IT :  Métro, Efrei, Dodo
 <br/>
@@ -7,7 +7,7 @@ Auteur : Youssef Ait El Mahjoub
 
 ------------------------------------------
 
-## $\color{red}{Version 1}$ 
+## 🔴 Version 1
 ------------------------------------------
 
 - Voir le dossier "/Version1"
@@ -27,7 +27,7 @@ Auteur : Youssef Ait El Mahjoub
 
 ----------------------------------------
 
-## $\color{red}{Version 2 \ et\ Version 3}$ 
+## 🔴 Version 2 et Version 3
 ------------------------------------------
 
 ### I - Provenance : 
@@ -39,7 +39,7 @@ Auteur : Youssef Ait El Mahjoub
 - Données temps réel et trés détaillés, nécessite la manipulation de plusieurs fichiers (GTFS) pour extraire les informations 
   nécessaire pour construire le graphe.
 
-### II - Les fichiers :
+###  - Les fichiers :
 
 - Les fichiers fournis GTFS/IDFM sont:
 	- "agency.txt"
@@ -160,7 +160,7 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
 
 ----------------------------------------
 
-## $\color{red}{Remarques\ importantes}$ 
+## 🔴 Remarques
 ------------------------------------------
 
 - Pour créer votre graphe, on doit connaitre les stations qui sont les noeuds, le poids entre les noeuds qui va être la durée 
@@ -179,7 +179,7 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
 
 ----------------------------------------
 
-## $\color{red}{Travail \ à faire}$ 
+## 🔴 Travail à faire
 ------------------------------------------
 
 ### A) Création du graphe valué à partir des données, en utilisant des structures de données adéquate.
@@ -215,7 +215,7 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
 
 ----------------------------------------
 
-## $\color{red}{UI\ exemples}$ 
+## 🟢  UI exemples
 ------------------------------------------
 ### Version 1
 <br>
@@ -245,7 +245,7 @@ Des bonus peuvent être attribués pour d'autres fonctionnalités:
 
 ----------------------------------------
 
-## $\color{red}{Bibliographie}$ 
+## 🟢 Bibliographie
 ------------------------------------------
 
 - Les cours sur Moodle.
