@@ -114,7 +114,7 @@ Exemple : "RATP" est identifié par "DFM:Operator_100", "RER" par "IDFM:71", "Tr
     > IDFM:RATP:127519-C01381-COU_RATP_5094171_2467825_2,05:53:00,05:53:00,IDFM:463223,12,1,0,,,1  (Enfin, Mairi des Lilas aprés 15min)
 
 
-- La première ligne indique, une arrivé ensuite depart à "05:38:00, 05:38:00" à la station "IDFM:463079" qui correspond à ... en faisant une recherche dans "stops.txt" on réalise que c'est la station de "Chatelet". Donc il reste juste à connaitre les noms des stations (voir dernière colonne ci-dessus).
+- La première ligne indique, une arrivée ensuite depart à "05:38:00, 05:38:00" à la station "IDFM:463079" qui correspond à ... en faisant une recherche dans "stops.txt" on réalise que c'est la station de "Chatelet". Donc il reste juste à connaitre les noms des stations (voir dernière colonne ci-dessus).
 
 - On peut également chercher les horaires du dernier métro de la ligne 11 à partir de châtelet (astuce: on modifie juste le dernier nombre du trip id). Alors l'identifiant est "IDFM:RATP:127519-C01381-COU_RATP_5094171_2467825_352", les horaires donc:
     > DFM:RATP:127519-C01381-COU_RATP_5094171_2467825_352,24:56:00,24:56:00,IDFM:463079,0,0,1,,,1   (Ici c'est châtelet)
@@ -165,7 +165,7 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
 
 - Pour créer votre graphe, on doit connaitre les stations qui sont les noeuds, le poids entre les noeuds qui va être la durée 
   (en seconde) entre 2 stations. 
-- Dans la Version 1 et Version 2 : On ne soucis pas de la date d'arrivé des lignes. On ne considére que les durées entre stations. Dans
+- Dans la Version 1 et Version 2 : On ne soucis pas de la date d'arrivée des lignes. On ne considére que les durées entre stations. Dans
   ces deux versions, on suppose que l'utilisateur arrive à la station exactement au moment de passage de sa ligne de transport et que les correspondences se font dans des temps négligales ( = 0 ). 
 
 - Version 1 : On utilise un autre fichier de donnée plus simple et qui centralise toutes les données, mais le fichier date de 
@@ -182,35 +182,37 @@ Attention 24:56 signifie 00:56, de même 25:06 signifie 01:06 du matin. Oui pas 
 ## 🔴 Travail à faire
 ------------------------------------------
 
-### A) Création du graphe valué à partir des données, en utilisant des structures de données adéquate.
+### A) Création du graphe valué à partir des données, en utilisant des structures de données adéquates.
 
 ### B) Créer un algorithme permettant de vérifier la connexité du réseau de transport.
     - (i.e. à partir de n'importe quelle station, on peut atteindre toutes les autres stations)
-    - Votre application doit pouvoir proposer à l'utilisateur un bouton (ou autre) afin qu'il puisse vérifier la connexité du réseau.
+    - Votre application doit proposer à l'utilisateur un bouton (ou tout autre élément d’interface) permettant de vérifier la connexité du réseau.
 
 ### C) Implémenter un algorithme d'ACPM comme Kruskal, en V1 ou V2. 
-    - Afficher l'arbre obtenu sur le plan du métro, ainsi que le poids de l 'arbre.
-    - Votre application doit pouvoir proposer à l'utilisateur un bouton (ou autre) afin qu'il puisse observer l'ACPM se propager dans le réseau.
+    - Afficher l'arbre obtenu sur le plan du métro, ainsi que le poids total de l 'arbre.
+    - L'application doit permettre à l'utilisateur de visualiser la propagation de l’ACPM dans le réseau (via un bouton ou un autre élément interactif).
 
 
-### D) Implémenter un algorithme de PCC comme Dijkstra, dans l'une des trois versions (par difficulté croissante): 
-- V1 : Les données se trouvent dans "métro.txt", données directement exploitable. 
-       Pas d'horaire exacte de passage des lignes.
+### D) Implémenter un algorithme de PCC comme Dijkstra, selon l'une des trois versions (par difficulté croissante): 
+- V1 : Les données sont issues de "métro.txt" et sont directement exploitables.
+       Pas de prise en compte des horaires exacts de passage des lignes.
 
-- V2 : Les données sont à jours, proviennnent de "Ile-de-France Mobilité 2024", par contre nécessitent un pré-traitement 
-       (voir explications ci-dessus). 
-       Pas d'horaire exacte de passage des lignes. 
+- V2 : Les données proviennent de "Île-de-France Mobilités 2024", mais nécessitent un pré-traitement (cf. explications précédentes).
+       Toujours sans prise en compte des horaires exacts.
 
 - V3 : V2 + respecter les horaires de passage des lignes et temps de correspondance dans chaque trajet (voir ci-dessus).
        Donc ici l'utilisateur défini non seulement la station de départ et arrivée, mais aussi la date de début de son trajet.
 
-### E)  Développer une UI exploitable par un utilisateur qui voudrais rechercher son itineraire, afficher l'ACPM, ou verifier la connexité du réseau.
-- Pour l'UI/UX la seule limite est votre imagination. Tant que l'application est fonctionnelle. 
+### E) Développer une interface utilisateur (UI) fonctionnelle permettant :
+	- La rechercher d'un itinéraire
+	- L'affichage de l’ACPM
+	- La vérification de la connexité du réseau
+	- Pour l'UI/UX la seule limite est votre imagination
 
-Des bonus peuvent être attribués pour d'autres fonctionnalités: 
-- Prendre en compte les lignes de Rer.
-- Spécifier une date d'arrivé souhaité pour votre trajet (au lieu d'une date de départ).
-- Considérer l'information d'accessibilité des stations pour les fauteuils roulant ...
+Des bonus peuvent être attribués pour d'autres fonctionnalités : 
+- Prendre en compte les lignes de RER
+- Spécifier une date d’arrivée souhaitée pour votre trajet (au lieu d’une date de départ).
+- Considérer les informations d’accessibilité des stations pour les fauteuils roulants ... etc
 <br/>
 
 ----------------------------------------
